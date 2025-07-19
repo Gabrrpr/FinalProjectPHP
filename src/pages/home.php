@@ -5,7 +5,13 @@ require_once __DIR__ . '/../../templates/header.php';
 <main class="home-main">
     <div class="welcome-box">
         <h1 id="welcome-title"></h1>
-        <h2 style="text-align: center; font-size: 3rem; font-weight: 600; color:rgb(181, 181, 36); margin: 1.5rem 0 1rem 0;">Welcome to PoliSys!</h2>
+        <h2 style="text-align: center; font-size: 3rem; font-weight: 600; color:rgb(181, 181, 36); margin: 1.5rem 0 1rem 0;
+    font-size: 3em; /* bigger title */
+    font-weight: 700;
+    background: -webkit-linear-gradient(#fff4d2, #f3be56);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;">Welcome to PoliSys!</h2>
         <p class="subtitle">PoliSys is an Automated Electronic Voting System made to make voting easier, faster, and more secure in the Philippines. <br><br>It takes away the hassle of manual counting and long lines by letting users vote online with just a few clicks. Every vote is safely recorded and counted, all in one smooth process.</p>
         <div class="home-actions">
             <!-- Use these in your navigation/menu -->

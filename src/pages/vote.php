@@ -100,9 +100,6 @@ if ($election_ids) {
 ?>
 <main class="dashboard-container" style="min-height: auto; padding: 2em; margin: 2em auto; max-width: 1200px;">
     <div class="dashboard-details" style="width: 100%;">
-        <div style="background: red; color: white; padding: 1rem; margin-bottom: 1rem; font-size: 1.5rem; font-weight: bold;">
-            TEST MESSAGE - CAN YOU SEE THIS?
-        </div>
         <h2><i class="fas fa-vote-yea"></i> Cast Your Vote</h2>
         <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; margin: 1rem 0; border: 1px solid #e9ecef;">
             <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
